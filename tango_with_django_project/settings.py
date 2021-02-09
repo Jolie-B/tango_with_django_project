@@ -80,7 +80,6 @@ TEMPLATES = [
 ]
 
 
-
 WSGI_APPLICATION = 'tango_with_django_project.wsgi.application'
 
 
@@ -134,3 +133,5 @@ USE_TZ = True
 STATICFILES_DIRS = [STATIC_DIR, ]
 
 STATIC_URL = '/static/'
+
+LOGIN_URL = 'rango:login'
